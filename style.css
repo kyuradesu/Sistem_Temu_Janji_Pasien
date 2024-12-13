@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background: #ececec; */
+}
+
+main{
+    padding-top: 5.5rem;
+    
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #0077ff !important;
+}
+.navbar-brand:hover{
+    font-size: 25px;
+    font-weight: bold;
+    color: #73ccff !important;
+}
+
+nav{
+    color: #214a71 !important;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: rgb(188, 35, 35) !important;
+}
+
+.about_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.about_section .img-box img {
+    max-width: 100%;
+}
+
+.about_section .detail-box p {
+    color: #999;
+    margin-top: 15px;
+}
+
+.about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #252525;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.about_section .detail-box a:hover {
+    background-color: #0c0c0c;
+}
+
+.treatment_section {
+    position: relative;
+}
+
+.treatment_section .side_img {
+    position: absolute;
+    right: 15px;
+    width: 175px;
+    height: auto;
+    bottom: 125px;
+}
+
+.treatment_section .side_img img {
+    width: 100%;
+}
+
+.treatment_section .heading_container h2 {
+    text-transform: none;
+}
+
+.treatment_section .box {
+    margin-top: 45px;
+}
+
+.treatment_section .box .img-box {
+    width: 65px;
+}
+
+.treatment_section .box .img-box img {
+    width: 100%;
+}
+
+.treatment_section .box .detail-box {
+    margin-top: 15px;
+}
+
+.treatment_section .box .detail-box h4 {
+    font-weight: bold;
+}
+
+.treatment_section .box .detail-box a {
+    text-transform: uppercase;
+    color: #006dc6;
+}
+
+.treatment_section .box .detail-box a:hover {
+    color: #252525;
+}
+
+.heading_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+            
+}
+
+.heading_container h2 {
+    position: relative;
+    font-weight: bold;
+    
+}
+
+.heading_container h2 span {
+    color: #050e89;
+}
+
+.heading_container.heading_center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    
+}
+
+.aboutpoli{
+    text-align: justify;
+    font-size: 20px !important;
+}
+.detail-box2{
+    font-family: 'Roboto', sans-serif;
+}
+.detail-box2 .keterangan{
+    text-align: justify;
+}
+.detail-box2 h2{
+    font-weight: bold !important;
+}
+
+
+/*===========================
+	Start Hero Area CSS
+=============================*/
+.single-slider {
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(71, 161, 235);
+    background-image: url("img/Index.png") ;
+}
+.slider .single-slider .text{
+	margin-top:120px;
+}
+.slider.index .single-slider .text{
+	margin-top:150px;
+}
+.slider .single-slider h1 {
+	color: black;
+	font-size: 48px;
+	font-weight: 700;
+	margin: 0;
+    margin-bottom: 20px;
+	padding: 0;
+	line-height: 42px;
+}
+.slider .single-slider h2{
+	color:black !important;
+    font-size: 38px;
+}
+.slider .single-slider p {
+	color: #eeeef7;
+	margin-top: 27px;
+	font-weight: 400;
+    text-align: justify;
+}
+.slider .single-slider span {
+	color: #eeeef7;
+	margin-top: 27px;
+	font-weight: 400;
+}
+/*===========================
+	End Hero Area CSS
+=============================*/
+
+/*=============================
+	Start Schedule CSS
+===============================*/
+.schedule {
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	height: 230px;
+}
+.schedule .schedule-inner {
+	position: relative;
+	transform: translateY(-50%);
+	z-index:9;
+}
+.schedule .single-schedule {
+	position: relative;
+	text-align: left;
+	z-index:3;
+	border-radius:5px;
+	/* background:#ccdcd6; */
+	background:#73ccff;
+	 -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.schedule .single-schedule .inner {
+	overflow:hidden;
+	position: relative;
+	padding:30px;
+	z-index:2;
+}
+.schedule .single-schedule:before{
+	position: absolute;
+    z-index: -1;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    background:#73ccff;
+    /* #ccdcd6 */
+    opacity: 0;
+    filter: blur(10px);
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.schedule .single-schedule:hover:before{
+	opacity: 0.8;
+}
+.schedule .single-schedule:hover{
+	transform: translateY(-5px);
+}
+.schedule .single-schedule .icon i{
+	position: absolute;
+	font-size: 110px;
+	color: #fff;
+	 -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+	z-index:-1;
+	visibility:visible;
+	opacity:0.2;
+	right: -25px;
+	bottom: -30px;
+}
+.schedule .single-schedule span{
+	display:block;
+	color:#213471;
+}
+.schedule .single-schedule h4{
+	font-size: 25px;
+	font-weight:600;
+	display:inline-block;
+	text-transform:capitalize;
+	color:#214671;
+	margin-top:13px;
+}
+.schedule .single-schedule p{
+	color:#213d71;
+	margin-top:22px;
+}
+.schedule .single-schedule a {
+	color: #213a71;
+	margin-top: 25px;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+}
+.schedule .single-schedule a:before{
+	position:absolute;
+	content:"";
+	left:0;
+	bottom:0;
+	height:1px;
+	width:0%;
+	background:#f0f0f4;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.schedule .single-schedule a:hover:before{
+	width:100%;
+	width:100%;
+}
+.schedule .single-schedule a i{
+	margin-left:10px;
+}
+.schedule .single-schedule .time-sidual{
+	overflow:hidden;
+	margin-top:17px;
+}
+.schedule .single-schedule .time-sidual li {
+	display: block;
+	color: #fff;
+	width: 100%;
+	margin-bottom:3px;
+}
+.schedule .single-schedule .time-sidual li:last-child{
+	margin:0;
+}
+.schedule .single-schedule .day-head .time {
+	font-weight: 400;
+	float: right;
+}
+
+.single-content .btn{
+	color:#213671;
+	background:#f0f0f4;
+	font-weight:500;
+	display:inline-block;
+	margin:0;
+	margin-right:10px;
+}
+.single-content p{
+    text-align: justify !important;
+}
+.text{
+    margin-left: 50px;
+}
+/*=============================
+	End Schedule CSS
+===============================*/
+
+.feautes-section {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+}
+
+.images {
+    max-width: 100%; /* Optional: agar gambar tidak melebihi lebar parent */
+    padding-left: 20px;
+}
+
+.copyright{
+	background:#213d71;
+	padding:25px 0px 25px 0px;
+	text-align:center;
+}
+.copyright .copyright-content p{
+	color:#fff;
+}
+.copyright .copyright-content p a{
+	color:#fff;
+	font-weight:400;
+	text-decoration:underline;
+	display:inline-block;
+	margin-left:4px;
+}
+
+
+/*------------ Login container ------------*/
+.loginpage {
+    background-color: #1a6cca;
+}
+.box-area{
+    width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+    .box-area{
+    margin: 0 5px;
+
+    }
+    .left-box{
+    height: 100px;
+    overflow: hidden;
+    }
+    .right-box{
+    padding: 20px;
+    }
+
+}
+
+
+
